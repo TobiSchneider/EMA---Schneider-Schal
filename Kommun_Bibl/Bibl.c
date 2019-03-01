@@ -41,8 +41,8 @@ ladestation_state_t state_table_ladestation[12] = {
 
 
 
-                g
-                DC_B3  = 3,   // Initialisierung
+
+ /*               DC_B3  = 3,   // Initialisierung
                 DC_C   = 4,   // Energieübertragung
                 DC_D   = 5,    // Energieübertragung
                 DC_B_1 = 6,   // Abschaltung
@@ -51,7 +51,7 @@ ladestation_state_t state_table_ladestation[12] = {
                 DC_B_4 = 9,   // Abschaltung
                 DC_E   = 11,      // Fehler
                 DC_F   = 12        // Fehlfunktion
-
+*/
 
 
 void Ampel1( unsigned char Farbe ) {
