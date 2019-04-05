@@ -11,3 +11,5 @@ Aufteilung:
     Aus Normen alle zustände definieren:
     Aus Normen alle Übergänge definieren:
     Aus Normen alle Bedingungen für die Übergänge definieren:
+    
+    Test 05|IV|2019
