@@ -12,4 +12,4 @@ Aufteilung:
     Aus Normen alle Übergänge definieren:
     Aus Normen alle Bedingungen für die Übergänge definieren:
     
-    Test 05|IV|2019
+    Test_2 05|IV|2019
