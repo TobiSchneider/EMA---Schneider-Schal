@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1551359468 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\main.c
+1551428917 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
@@ -25,13 +25,13 @@
 	<stdlib.h>
 	"Bibl.h"
 
-1551362263 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.c
+1551428804 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	"SysAParam.h"
 
-1551358462 c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.h
+1551430613 c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.h
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
