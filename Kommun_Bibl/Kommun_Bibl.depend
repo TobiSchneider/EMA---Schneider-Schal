@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1551359468 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\main.c
+1551428917 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
@@ -25,15 +25,90 @@
 	<stdlib.h>
 	"Bibl.h"
 
-1551362263 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.c
+1551428804 source:c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	"SysAParam.h"
 
-1551358462 c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.h
+1551430613 c:\users\user\desktop\tobias_projekte\kommun_bibl\sysaparam.h
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	<stdbool.h>
+
+1551175780 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\bibl.c
+	<stdio.h>
+	<stdlib.h>
+	"Bibl.h"
+
+1550835367 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\bibl.h
+	<stdbool.h>
+
+1555402409 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\dealay_interrupt_24bit_tim.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"main.h"
+	"Bibl.h"
+	"testHeader.h"
+	"SysAParam.h"
+	"StMachSysA.h"
+	"StFunktions.h"
+
+1550070809 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\main.h
+
+1550072813 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\testheader.h
+
+1555487948 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\sysaparam.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+
+1555060358 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\stmachsysa.h
+
+1554974612 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\stfunktions.h
+
+1555403729 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"main.h"
+	"Bibl.h"
+	"testHeader.h"
+	"SysAParam.h"
+	"StMachSysA.h"
+	"StFunktions.h"
+	"Dealay_interrupt_24Bit_tim.h"
+
+1555402825 c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\dealay_interrupt_24bit_tim.h
+
+1555405634 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\stfunktions.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"main.h"
+	"Bibl.h"
+	"testHeader.h"
+	"SysAParam.h"
+	"StMachSysA.h"
+	"StFunktions.h"
+	"Dealay_interrupt_24Bit_tim.h"
+
+1555060626 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\stmachsysa.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"main.h"
+	"Bibl.h"
+	"testHeader.h"
+	"SysAParam.h"
+	"StMachSysA.h"
+
+1555148731 source:c:\users\user\desktop\rabochii_stol\tobias_projekte\kommun_bibl\sysaparam.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"SysAParam.h"
 

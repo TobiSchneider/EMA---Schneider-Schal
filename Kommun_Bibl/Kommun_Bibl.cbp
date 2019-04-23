@@ -38,6 +38,22 @@
 			<Option link="1" />
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="Dealay_interrupt_24Bit_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Dealay_interrupt_24Bit_tim.h" />
+		<Unit filename="StFunktions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="StFunktions.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="StMachSysA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="StMachSysA.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="SysAParam.c">
 			<Option compilerVar="CC" />
 		</Unit>
