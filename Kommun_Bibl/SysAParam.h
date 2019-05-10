@@ -42,12 +42,12 @@
 #define OUT_CUURR_3          3
 #define VERB_LADE_TIM_S_6    6
 #define VERB_LADE_TIM_S_7    7
-#define STAT_ST_50           50
-#define FEHL_FKT_STAT_51     51
-#define VERR_FRZG_KUPP_52    52
-#define BATT_KOMPAT_53       53
-#define FEHL_FKT_LADE_SYS_55 54
-#define STEUER_LADE_AB_55    55
+#define STAT_ST_5_0          50
+#define FEHL_FKT_STAT_5_1    51
+#define VERR_FRZG_KUPP_5_2   52
+#define BATT_KOMPAT_5_3      53
+#define FEHL_FKT_LADE_SYS_5_4 54
+#define STEUER_LADE_AB_5_5   55
 
 
 
@@ -66,12 +66,28 @@
 #define HUND_NEUN_ID_MAX 8
 
 /*Nachrichten-Felder*/
-char hundertID[HUND_ID_MAX]          ;
-char hundertEinsID[HUND_EINS_ID_MAX] ;
-char hundertZweiID[HUND_ZWEI_ID_MAX] ;
-char hundertAchtID[HUND_ACHT_ID_MAX] ;
-char hundertNeunID[HUND_NEUN_ID_MAX] ;
+uint8_t hundertID[HUND_ID_MAX]          ;
+uint8_t hundertEinsID[HUND_EINS_ID_MAX] ;
+uint8_t hundertZweiID[HUND_ZWEI_ID_MAX] ;
+uint8_t hundertAchtID[HUND_ACHT_ID_MAX] ;
+uint8_t hundertNeunID[HUND_NEUN_ID_MAX] ;
 
 bool strLadenSysA( uint8_t *ptrID ) ;
+
+/*Die Übergabe der Nachrichtenwerten aus der Modul geht über get Funktionen*/
+uint8_t *getHundertID( void ) ;
+uint8_t *getHundertEinstID( void ) ;
+uint8_t *getHundertZweiID( void ) ;
+//uint8_t *getHundertDreiID( void ) ;
+uint8_t *getHundertAchtID( void ) ;
+uint8_t *getHundertNeunID( void ) ;
+
+/*set Funktionen*/
+void setHundertID( uint8_t koeff, uint8_t value )      ;
+void setHundertEinstID( uint8_t koeff, uint8_t value ) ;
+void setHundertZweiID( uint8_t koeff, uint8_t value )  ;
+void setHundertDreiID( uint8_t koeff, uint8_t value )  ;
+void setHundertAchtID( uint8_t koeff, uint8_t value )  ;
+void setHundertNeunID( uint8_t koeff, uint8_t value )  ;
 
 #endif // SYSAPARAM_H_INCLUDED
