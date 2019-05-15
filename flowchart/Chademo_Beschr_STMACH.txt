@@ -1,0 +1,15 @@
+| Charger | Action | Vehicle | |:------------|:-----------|:------------| 
+
+| |Send start-of-charging signal | ? Charger pulls Pin 2 up to 12v | Recognize start-of-charging 
+| | Recieve battery parameters, do a compatibility check | ? Send over CAN link | Transmit battery parameters 
+| |Transmit charger parameters | ? Send over CAN Bus | Receive charger parameters, do compatibility check 
+| |Recognize start Permission Signal | ? Car grounds pin 4 | Send Start Permission Signal 
+| | Connector lock and perform insulation test, send charging ready signal |? Charger grounds pin 10 | Recognize charging ready signal, main contactor ON
+| |Receives current requirement, adjust to within 2% output | ? Send current requirement every 100ms over CAN Bus | BMS monitors battery SOC, Temp, and input current, calculates current requirements 
+
+/*Charging stop cases*/
+Entweder voll geladen, oder switch(k) ist AN. | | Charging reaches end SOC set in charger | ? OR ? | Stopped by user 
+Current reqauest is set to zero.	      | | Receives zero current,outputs zero current | ? Send current requirement over CAN Bus | Send zero current 
+| |Recognize charging stop | ? Car disconnects pin 4 from ground | Confirm zero current, contactor off, send charge stop signal 
+
+| |Terminate Charging Process | ? Charger disconnects Pins 2 & 10, unlocks connector | User Removes CHAdeMO connector from Vehicle |
