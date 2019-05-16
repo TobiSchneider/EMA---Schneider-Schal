@@ -1,3 +1,12 @@
+Leitungs-Tabelle
+
+charge sequence signal 1	->	Charger start/stop 1 	( 2  )
+charge sequence signal 1	-> 	Charger start/stop 2 	( 10 )
+Connector proximity detection   ->	Connection check     	( 7  )
+Vehicle charge permission	->	Charging enable/disable ( 4  )
+Ground wire			->	Groundwire     		( 1  )
+
+
 | Charger | Action | Vehicle | |:------------|:-----------|:------------| 
 
 | |Send start-of-charging signal | ? Charger pulls Pin 2 up to 12v | Recognize start-of-charging 
@@ -9,7 +18,7 @@
 
 /*Charging stop cases*/
 Entweder voll geladen, oder switch(k) ist AN. | | Charging reaches end SOC set in charger | ? OR ? | Stopped by user 
-Current reqauest is set to zero.	      | | Receives zero current,outputs zero current | ? Send current requirement over CAN Bus | Send zero current 
+Current request is set to zero.	      | | Receives zero current,outputs zero current | ? Send current requirement over CAN Bus | Send zero current 
 | |Recognize charging stop | ? Car disconnects pin 4 from ground | Confirm zero current, contactor off, send charge stop signal 
 
 | |Terminate Charging Process | ? Charger disconnects Pins 2 & 10, unlocks connector | User Removes CHAdeMO connector from Vehicle |
